@@ -7,88 +7,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Git Cheat Sheet</h1>
-    </header>
+    <nav>
+        <ul>
+            <li class="header-title">Common Git Commands</li>
+            <div class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="git-cheat-sheet.html">Git Cheat Sheet</a></li>
+            </div>
+        </ul>
+    </nav>
 
-    <main>
-        <h2 style="font-size: 2.5rem; color: #00bcd4; text-align: center; margin-top: 20px;">Common Git Commands</h2>
-        <table style="width: 80%; margin: 20px auto; border-collapse: collapse; text-align: left;">
+    <main class="content">
+        <table>
             <thead>
-                <tr style="background-color: #1e1e1e;">
-                    <th style="padding: 10px; border: 1px solid #333;">Command</th>
-                    <th style="padding: 10px; border: 1px solid #333;">Description</th>
-                    <th style="padding: 10px; border: 1px solid #333;">Documentation</th>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Documentation</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git init</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Initialize a new Git repository</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-init" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Init</a>
-                    </td>
+                    <td><code>git init</code></td>
+                    <td>Initialize a new Git repository</td>
+                    <td><a href="https://git-scm.com/docs/git-init" target="_blank">Git Init</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git status</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Check the status of the working directory</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-status" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Status</a>
-                    </td>
+                    <td><code>git status</code></td>
+                    <td>Check the status of the working directory</td>
+                    <td><a href="https://git-scm.com/docs/git-status" target="_blank">Git Status</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git add</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Stage changes for the next commit</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-add" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Add</a>
-                    </td>
+                    <td><code>git add</code></td>
+                    <td>Stage changes for the next commit</td>
+                    <td><a href="https://git-scm.com/docs/git-add" target="_blank">Git Add</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git commit</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Commit staged changes to the repository</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-commit" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Commit</a>
-                    </td>
+                    <td><code>git commit</code></td>
+                    <td>Commit staged changes to the repository</td>
+                    <td><a href="https://git-scm.com/docs/git-commit" target="_blank">Git Commit</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git push</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Push committed changes to a remote repository</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-push" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Push</a>
-                    </td>
+                    <td><code>git push</code></td>
+                    <td>Push committed changes to a remote repository</td>
+                    <td><a href="https://git-scm.com/docs/git-push" target="_blank">Git Push</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git pull</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Fetch and merge changes from a remote repository</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-pull" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Pull</a>
-                    </td>
+                    <td><code>git pull</code></td>
+                    <td>Fetch and merge changes from a remote repository</td>
+                    <td><a href="https://git-scm.com/docs/git-pull" target="_blank">Git Pull</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git clone</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">Clone an existing repository</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-clone" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Clone</a>
-                    </td>
+                    <td><code>git clone</code></td>
+                    <td>Clone an existing repository</td>
+                    <td><a href="https://git-scm.com/docs/git-clone" target="_blank">Git Clone</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border: 1px solid #333;"><code>git log</code></td>
-                    <td style="padding: 10px; border: 1px solid #333;">View the commit history</td>
-                    <td style="padding: 10px; border: 1px solid #333;">
-                        <a href="https://git-scm.com/docs/git-log" target="_blank" style="color: #00bcd4; text-decoration: none;">Git Log</a>
-                    </td>
+                    <td><code>git log</code></td>
+                    <td>View the commit history</td>
+                    <td><a href="https://git-scm.com/docs/git-log" target="_blank">Git Log</a></td>
                 </tr>
             </tbody>
         </table>
     </main>
 
-    <button onclick="goHome()">Home</button>
-
     <footer>
         &copy; 2024 Nexachron - Empowering Automation
     </footer>
-
-    <script src="git-cheat-sheet-script.js"></script>
-    
 </body>
 </html>
